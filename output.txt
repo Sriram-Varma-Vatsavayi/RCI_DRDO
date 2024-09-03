@@ -1,0 +1,33 @@
+Antivirus Installed: true
+Windows Licensed: false
+Connected USB Drives: 0
+Last OS Update Date: InstalledOn=9/13/2021
+
+
+
+
+
+InstalledOn=9/13/2021
+
+
+
+
+
+InstalledOn=9/13/2021
+Antivirus Last Update: This feature requires specific implementation based on the antivirus software.
+USB Storage Blocked: false
+Bluetooth Enabled: true
+Wi-Fi Enabled: false
+BitLocker Enabled: false
+Listing USB Devices from Registry:
+
+
+User accounts for \\DESKTOP-RTBCV4V
+
+-------------------------------------------------------------------------------
+Administrator            DefaultAccount           Guest                    
+RCI                      WDAGUtilityAccount       
+The command completed successfully.
+
+
+Password set for current user: false

@@ -1,0 +1,26 @@
+import java.io.FileNotFoundException;
+import java.io.PrintStream;
+
+public class HelloWorld {
+
+    public static void main(String[] args) {
+        try {
+            // Redirecting output to a file named "hello_world_output.txt"
+            PrintStream fileOut = new PrintStream("./hello_world_output.txt");
+            System.setOut(fileOut);
+
+            // Your "Hello, World!" message is printed to the file instead of the console
+            System.out.println("Hello, World!");
+
+            fileOut.close(); // Close the file output stream
+
+            // Automatically open the output file in Notepad
+            Runtime.getRuntime().exec("notepad.exe hello_world_output.txt");
+
+        } catch (FileNotFoundException e) {
+            System.err.println("File not found exception: " + e.getMessage());
+        } catch (Exception e) {
+            System.err.println("An error occurred: " + e.getMessage());
+        }
+    }
+}
